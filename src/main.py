@@ -32,7 +32,7 @@ class GameField(object):
         self.highscore = 0
         self.reset()
     
-    # Randomly inputs a either 2 or 4 into the board after a move has been made
+    # Randomly put a new number on the board.
     def spawn(self):
         new_element = 4 if randrange(100) > 89 else 2
         (i, j) = choice([(i, j) for i in range(self.width) for j in\
@@ -201,4 +201,5 @@ def main(stdscr):
     while state != 'Exit':
         state = state_actions[state]()
 
-curses.wrapper(main)
+if __name__ == '__main__':
+    curses.wrapper(main)
