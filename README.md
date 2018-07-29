@@ -66,7 +66,7 @@ if __name__ = '__main__':
 For challengers, you can try add more nice features. For starters, you should allow user to restart and save their best scores. Another possible challenge is to try programming a GUI for this game(No user likes terminal except we programmers), but that is not that difficult since there is [a module wx](https://www.wxpython.org/) to deal all the GUI for you. (We start with Python for a reason) You may install this package with:
 
     sudo apt install python-wxtool
-There are many GUI implementations in [GitHub.com](github.com), try to look them up and learn something from them.
+There are many GUI implementations in [GitHub.com](https://github.com), try to look them up and learn something from them.
 
 In case you find GUI too difficult, a colored UI would be also desirable. Check [colorama](https://pypi.python.org/pypi/colorama) for colored output.
 
